@@ -23,7 +23,7 @@ Two port device , optocoupler isolates the two circuits . It is for safety of mi
 
 ## Working
 
-When car is in ignition mode , optocoupler act as input to microcontoller . This device takes noisy +12 V input . 2.4 V voltage drop across zener diode . Optocoupler switches on and microcontroller senses LOGIC LOW on pin 3 . It turns output pin 4 from HIGH to LOW which glows LED .
+When car is in ignition mode , optocoupler act as input to microcontoller . This device takes noisy +12 V input . 2.4 V voltage drop across zener diode . Optocoupler switches on and microcontroller senses LOGIC LOW on pin PD3 . It turns output pin PD4 from HIGH to LOW which glows LED .
 
 
 ###NOTE :
